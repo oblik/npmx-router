@@ -1,6 +1,6 @@
 {
-  "name": "wxt-starter",
-  "description": "manifest.json description",
+  "name": "npmx-router",
+  "description": "Redirects npmjs.com package pages to npmx.dev.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
