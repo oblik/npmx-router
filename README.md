@@ -1,6 +1,6 @@
 # npmx router
 
-A tiny browser extension that sends npmjs.com package pages to [npmx.dev](https://npmx.dev) instead.
+A tiny browser extension that instantly redirects you from npmjs.com URLs to [npmx.dev](https://npmx.dev) instead.
 
 ## Why
 
