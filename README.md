@@ -2,6 +2,8 @@
 
 A tiny browser extension that instantly redirects you from npmjs.com URLs to [npmx.dev](https://npmx.dev) instead.
 
+👉 **[Download from Chrome Web Store](https://chromewebstore.google.com/detail/npmx-router/cdicloegkpnpkofnfjdademiibocmnkd)**
+
 ## Why
 
 Search engines almost always link to npmjs.com for a package. If you prefer browsing packages on npmx.dev, that means an extra step every time. This extension does the redirect for you, wherever the link came from: Google, GitHub, Slack, or a typed URL.
