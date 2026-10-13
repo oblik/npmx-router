@@ -21,6 +21,11 @@ async function apply(enabled: boolean) {
 export default defineBackground(() => {
   enabledItem.getValue().then(apply);
 
+  // The badge and title reset to the manifest defaults on browser restart,
+  // but the worker only starts for events it listens to. Listening here makes
+  // it start on launch, so the line above restores the OFF badge.
+  browser.runtime.onStartup.addListener(() => {});
+
   browser.action.onClicked.addListener(async () => {
     const enabled = !(await enabledItem.getValue());
     await enabledItem.setValue(enabled);
